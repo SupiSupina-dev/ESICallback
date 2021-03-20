@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var str = window.location.href;
+            var url = str.substring(
+    str.lastIndexOf("?code=") + 6, 
+    str.lastIndexOf("&state="));
+        </script>
+    <style>
+        body 
+        {
+            font-family: Roboto;
+            text-align: center;
+         }
+    </style>
+    <font>
+
+    </font>
+    </head>
+<body>
+    <h3>Enter this code into the prompt:</h3>
+<p><script type="text/javascript">
+    document.write(url)
+  </script></p>
+</body>
+</html>
